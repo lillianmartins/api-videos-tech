@@ -63,8 +63,9 @@ Agradecemos à plataforma Alura por proporcionar um aprendizado completo em prog
 * Para mais informações, consulte o código fonte da aplicação.
 
 **Contato:**
-Lillian Martins Cruz
-e-mail: mcruz.lillian@gmail.com
-Linkedin: https://www.linkedin.com/in/mcruzlillian/
-Github: https://github.com/lillianmartins
+
+* **Lillian Martins Cruz**
+* **e-mail:** mcruz.lillian@gmail.com
+* **Linkedin:** https://www.linkedin.com/in/mcruzlillian/
+* **Github:** https://github.com/lillianmartins
 
