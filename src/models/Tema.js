@@ -11,19 +11,20 @@ const temaSchema = new mongoose.Schema({
         required: [true, "Link de texto obrigatório."]},
     descricao: { 
         type: String,
-        required: [true, "A descrição do tema é obrigatório."]
+        required: [true, "A descrição do tema é obrigatória."]
      },
     linkVideo: {
         type: String,
         require: [true, "Link de vídeo obrigatório."]
     },
     categoria: { 
-        type: String,
-        required: [true, "A categoria do tema é obrigatório."]
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "categorias",
+        required: [true, "A categoria do tema é obrigatória."]
      },
     tags: { 
         type: String,
-        required: [true, "A(s) tag(s) do tema é obrigatório."]
+        required: [true, "A(s) tag(s) do tema é obrigatória."]
      }
 }, { versionKey: false });
 
